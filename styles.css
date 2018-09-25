@@ -1,0 +1,101 @@
+*{
+	transition: all .1s ease-in;
+	box-sizing: border-box;	
+}
+html{	
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+html,
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+body{
+	font-size: 0;
+	background: rgb(51, 153, 204);
+	color: white;
+	border: 10px solid rgb(43, 129, 172);	
+}
+h1{
+	background: rgb(51, 153, 204);
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+	margin: 0;
+}
+footer{
+	background: rgb(51, 153, 204);
+	font-size: 12px;
+	padding: 10px 0 10px 0	;
+}
+ul{
+	list-style-type: none;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 2px solid white;
+}
+ul li{
+	font-size: 14px;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	height: 25%;
+	padding: 15px 0 15px 0;
+	border: 2px solid white;	
+}
+.container{
+	width: 70%;	
+	margin: 0 auto;
+	padding: 0;
+	background: white;
+}
+#Lisbon{
+	background: rgb(51, 153, 204);
+	width: 50%;
+}
+#Paris{
+	background: rgb(51, 204, 204);
+}
+#Belgrade{
+	background: rgb(153, 102, 153);
+}
+#Moscow{
+	background: rgb(194, 71, 71);
+}
+#TelAviv{
+	background: rgb(226, 103, 74);
+}
+#Cair{
+	background: rgb(225, 204, 102);
+}
+#NewYork{
+	background: rgb(153, 204, 153);
+}
+#NewDelhi{
+	background: rgb(102, 153, 153);
+}
+#SanFrancisco{
+	background: rgb(204, 102, 153);
+	width: 50%;
+}
+#Tokyo{
+	background: rgb(51, 153, 102);
+}
+#Sydney{
+	width: 100%;
+	background: rgb(102, 102, 153);
+}
+ul li span{
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 18px;
+}
+/* ul:hover li{
+	opacity: 0.5;
+}
+ul li:hover{
+	opacity: 1.0;	
+} */
+ul:hover li:not(:hover){
+	opacity: 0.6;
+}
