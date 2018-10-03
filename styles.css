@@ -50,41 +50,37 @@ ul li{
 	padding: 0;
 	background: white;
 }
-#Lisbon{
-	background: rgb(51, 153, 204);
-	width: 50%;
+.size_25{
+	width: 25%;	
 }
-#Paris{
-	background: rgb(51, 204, 204);
+.size_50{
+	width: 50%;	
 }
-#Belgrade{
-	background: rgb(153, 102, 153);
+.size_100{
+	width: 100%;	
 }
-#Moscow{
-	background: rgb(194, 71, 71);
-}
-#TelAviv{
-	background: rgb(226, 103, 74);
-}
-#Cair{
-	background: rgb(225, 204, 102);
-}
-#NewYork{
-	background: rgb(153, 204, 153);
-}
-#NewDelhi{
-	background: rgb(102, 153, 153);
-}
-#SanFrancisco{
-	background: rgb(204, 102, 153);
-	width: 50%;
-}
-#Tokyo{
-	background: rgb(51, 153, 102);
-}
-#Sydney{
-	width: 100%;
-	background: rgb(102, 102, 153);
+.color_blue{
+	background: rgb(51, 153, 204);	
+}.color_cyan{
+	background: rgb(51, 204, 204);	
+}.color_pupple{
+	background: rgb(153, 102, 153);	
+}.color_red{
+	background: rgb(194, 71, 71);	
+}.color_carrot{
+	background: rgb(226, 103, 74);	
+}.color_yellow{
+	background: rgb(225, 204, 102);	
+}.color_lightgreen{
+	background: rgb(153, 204, 153);	
+}.color_grey{
+	background: rgb(102, 153, 153);	
+}.color_pink{
+	background: rgb(204, 102, 153);	
+}.color_green{
+	background: rgb(51, 153, 102);	
+}.color_lilac{
+	background: rgb(102, 102, 153);	
 }
 ul li span{
 	color: rgba(255, 255, 255, 0.6);
